@@ -1,0 +1,17 @@
+# Build artifacts
+*.exe
+*.exe~
+rsrc.syso
+*.tmp
+
+# Local secrets / runtime data (never commit these)
+config.json
+auths/
+data/
+models.json
+*.bak
+*.bak.*
+
+# OS junk
+.DS_Store
+Thumbs.db
